@@ -1,0 +1,243 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<script type="text/javascript">
+  $(function(){
+    jQuery(document).ready(function() {
+    $('#home').backstretch([
+       "{% static 'images/home-bg-slideshow1.jpg' %}", 
+       "{% static 'images/home-bg-slideshow2.jpg' %}",
+        ],  {duration: 2000, fade: 750});
+    });
+  })
+
+  </script>
+<!-- home section -->
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				
+				<h3>Transport & logistics / Forwarding and Clearing / Warehouse transfers / Managements services</h3>
+				<h1></h1>
+				<hr>
+				<a href="#work" class="smoothScroll btn btn-danger">What we do</a>
+				<a href="#contact" class="smoothScroll btn btn-default">Talk to us</a>
+			</div>
+		</div>
+	</div>		
+</section>
+
+<!-- work section -->
+<section id="work">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					
+					<h1 class="heading bold">WHAT WE DO</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+				<i class="icon-mobile medium-icon"></i>
+					<h3>Respectful</h3>
+					<hr>
+					<p>We spot unnoticed opportunities and discovering smart way to tackle challenges because we listen to our customers, employees and our partners. These repect for each other’s individual strengths drives these collaborations.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-laptop medium-icon"></i>
+					<h3>Innovative</h3>
+					<hr>
+					<p>we are curious.  We push boundaries through game-changing ideas the kind of advances no one else thinks are possible. We have passion to invest in pioneering technologies that will help our customers come out on top.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="icon-cloud medium-icon"></i>
+				<h3>Entrepreneurial </h3>
+					<hr>
+					<p>We’re boldly optimistic about reinventing industries and shaping the future of how business can customer needs. We embrace change.That’s how we discover original ways to solve challenges and create wins for our customers and their customers.</p>
+					
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-compass medium-icon"></i>
+				<h3>Safe and fast</h3>
+					<hr>
+					<p>We put safety first for each other, our communities and environment. Moreover, we constantly seek to improve the safety of our operations from truck on the road to warehouse and datacenters in our headquarters. However, we know and understand the value and the meaning of the concept “just in time”. Therefore, we offer a fast and secure delivery every time and take pride in being regarded as a reliable partner.</p>
+					
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-chat medium-icon"></i>
+				<h3>Inlusivet</h3>
+					<hr>
+					<p>We celebrate individuality.  We take pride in making our workplaces inclusive by welcoming everyone regardless of gender, race, ethnicity, national origin, religion, political or disability. We stand for integrity, celebrate individuality and know we can always learn more each other, our customers and communities we serve.</p>
+					
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+<!-- about section -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 col-sm-12">
+				<img src="{% static 'images/about-img.jpg' %}" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h3 class="bold">LEENSFREIGHT</h3>
+				<h1 class="heading bold">Best logistics handler around!</h1>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">About Us</a></li>
+					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">Service Driven</a></li>
+					<li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">Culture</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+						<p>LEENSFREIGHT LOGISTICS SOLUTIONS LIMITED is a top provider of transportation and logistics services, with a highly integrated network of people, technology, and physical assets. Our vision is to be the growth partner for our customers.</p>
+						<p>As a logistics company, we achieve this through proven expertise across our five lines of business: Supply Chain Optimization, Freight Forwarding & clearing, Contract Logistics, Distribution & Express and Road Transport</p>
+						<p>Our emphasis on excellence in these areas has made us the best supply chain leader, committed to helping customers and our partners overcome their logistical challenges.</p>
+						
+					</div>
+					<div role="tabpanel" class="tab-pane" id="mobile">
+						<p>Customer relationships are the lifeblood of our business. However, we never forget that our company has responsibilities to many other stakeholders as well: investors, employees, carriers, business partners, local communities and global society.</p>
+						<p><a href="#">Therefore</a> as we work on a daily basis, we’re doing it for the interests of all LEENSFREIGHT stakeholders.</p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="social">
+						<p>We utilize our organization to help customers manage their goods most efficiently throughout their supply chains.</p>
+						<p>At the top of our value proposition is an intense customer service culture that connects our team.</p>
+						<p>Our kin center around discovering better approaches to assist our customers succeed, while becoming consistently more proficient ourselves.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- portfolio section -->
+<div id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				
+				<!-- ISO section -->
+				<div class="iso-section">
+				
+               		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
+               			<div class="iso-box-wrapper col4-iso-box">
+
+               				 <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="{% static 'images/portfolio-img1.jpg' %}" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="{% static 'images/portfolio-img2.jpg' %}" data-lightbox-gallery="portfolio-gallery"><img src="{% static 'images/portfolio-img2.jpg' %}" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="{% static 'images/portfolio-img3.jpg' %}" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="{% static 'images/portfolio-img4.jpg' %}" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="{% static 'images/portfolio-img5.jpg' %}" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="{% static 'images/portfolio-img6.jpg' %}" alt="portfolio img"></a>
+               				 </div>
+
+               			</div>
+               		</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>		
+
+<!-- pricing section -->
+<section id="pricing">
+	<div class="container">
+		<div class="row">
+			
+			
+			<div class="col-md-6 col-sm-12">
+				<h3 class="bold">WHY CHOOSE US?</h3>
+				
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+						<p>Helping to solve your business challenges. To maximize the value of your supply chain, you need a reliable logistics partner whose excellent support is available wherever you need. </p>
+						<p>One with a thorough depth of knowledge of your market and its dynamics, who works to the highest standards and brings you the benefit of unrivalled environmental and safety credentials, along with state-of-the art technology.</p>
+						
+						<h3 class="bold">Our Mission</h3>
+					
+						<p>To be the global provider of choice for temperature-controlled infrastructure and supply chain solutions through our innovation, experience and people. We have one ultimate goal: the complete satisfaction of every stakeholder at every step of the supply chain while making sure that we and our partners respect our strong ethical values as well as the governing laws and regulations.</p>
+						
+					</div>
+					
+
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="{% static 'images/contact-bg.jpg' %}" class="img-responsive" alt="about img">
+			</div>
+		</div>
+	</div>		
+</section>
+
+<!-- contact section -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					
+					<h1 class="heading bold">CONTACT US</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 contact-info">
+				<div class="col-md-6 col-sm-4">
+					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
+					<h3><p>+254 798 540 769 | +254 705 784 316</p></h3>
+				</div>
+				
+				<div class="col-md-6 col-sm-4">
+					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
+					<h3><p>info@leensfreightsolutions.co.ke</p></h3>
+				</div>
+				
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
+					<div class="col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Name" name="name">
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<input type="email" class="form-control" placeholder="Email" name="email">
+					</div>
+					<div class="col-md-12 col-sm-12">
+						<textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
+					</div>
+					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
+						<input type="submit" class="form-control" value="SEND MESSAGE">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock content %}
